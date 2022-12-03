@@ -1,17 +1,22 @@
 body{
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 .header-container{
     display: flex;
     border: solid yellow;
+    height: 100px;
 
 }
 .logo-container{
     border: solid green;
+    flex: 1;
 
 }
+
 .header-links-container{
     border: solid green;
+    flex: 1;
 }
 .links ul{
     display: inline;
