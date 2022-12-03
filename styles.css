@@ -1,4 +1,22 @@
 body{
     display: block;
 }
+.header-container{
+    display: flex;
+    border: solid red;
 
+}
+.logo-container{
+    border: solid green;
+
+}
+.header-links-container{
+    border: solid green;
+}
+.links ul{
+    display: inline;
+}
+.links li{
+    list-style-type: none;
+    display: inline;
+}
