@@ -13,6 +13,17 @@ body{
     flex: 1;
 
 }
+.logo{
+    display: flex;
+    margin-left: 75px;
+}
+.bear{
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    border: solid deeppink;
+    d
+}
 
 .header-links-container{
     border: solid green;
