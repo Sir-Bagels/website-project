@@ -4,37 +4,38 @@ body{
 }
 .header-container{
     display: flex;
-    border: solid yellow;
+    /* border: solid yellow; */
     height: 100px;
+    background-color: #1F2937;
 
 }
 .logo-container{
-    border: solid green;
+    /* border: solid green; */
     flex: 1;
 
 }
 .logo{
     display: flex;
-    margin-left: 75px;
+    margin-left: 100px;
 }
 .bear{
     height: 90px;
     margin: 0;
     padding: 0;
-    border: solid deeppink;
+    /* border: solid deeppink; */
     d
 }
 
 .header-links-container{
-    border: solid green;
+    /* border: solid green; */
     flex: 1;
     display: flex;
     align-items: center;
     
 }
 .header-links{
-    border: solid blue;
-    position: absolute;
+    /* border: solid blue; */
+    /* position: absolute; */
     
 }
 .links ul{
@@ -49,5 +50,14 @@ body{
 .links a{
     text-decoration: none;
     margin-right: 10px;
+    color: white;
+    font-size: 30px;
     
 }
+.top-container{
+    display: flex;
+    height: 100px;
+    /* border: solid yellow; */
+    background-color: #1F2937;
+}
+
