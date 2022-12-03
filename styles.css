@@ -56,8 +56,30 @@ body{
 }
 .top-container{
     display: flex;
-    height: 100px;
+    height: 200px;
     /* border: solid yellow; */
     background-color: #1F2937;
+}
+.left-heading-contatiner{
+    flex: 1;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+.left-heading{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 50px;;
+    border: solid red;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+
+    
+    
+
+}
+.right-heading-container{
+    border: solid red;
+    flex: 1;
 }
 
