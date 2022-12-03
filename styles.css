@@ -3,7 +3,7 @@ body{
 }
 .header-container{
     display: flex;
-    border: solid red;
+    border: solid yellow;
 
 }
 .logo-container{
