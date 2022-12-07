@@ -134,8 +134,9 @@ body{
 .bottom-container-header{
     /* border: solid green; */
     text-align: center;
-    padding: 20px;
+    padding: 21px;
     font-size: 30px;
+    width: 100%;
 
 }
 .boxes-container{
