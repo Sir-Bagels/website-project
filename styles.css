@@ -159,8 +159,10 @@ body{
 .words{
     width: 120px;
     margin-left: 50px;
-    /* border: solid green; */
+    border: solid white;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .almost-bottom-container{
     width: 100%;
