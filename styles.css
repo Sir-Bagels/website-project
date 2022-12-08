@@ -130,6 +130,9 @@ body{
     /* border: solid red; */
     display: flex;
     flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 .bottom-container-header{
     /* border: solid green; */
@@ -137,12 +140,16 @@ body{
     padding: 21px;
     font-size: 30px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 
 }
 .boxes-container{
     /* border: solid blue; */
     display: flex;
     justify-content: center;
+    width: 100%;
+    gap: 50px;
     
 }
 .box{
@@ -150,8 +157,9 @@ body{
     display: flex;
     height: 120px;
     width: 120px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     border-radius: 10px;
+    gap: 10;
 }
 .bottom-paragraph-container{
     display: flex;
@@ -168,11 +176,18 @@ body{
 .almost-bottom-container{
     width: 100%;
     background-color: lightgray;
-    height: 200px;
+    /* height: 200px; */
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    padding-top: 35px;
+}
+.bottom-bottom-container{
+    font-size:25px;
+    width: 500px;
+    font-style: italic;
+    /* border: solid red; */
 }
 .bottom-bottom-bottom-container{
     /* border: solid rebeccapurple; */
@@ -184,4 +199,67 @@ body{
 }
 .bottom-paragraph{
     font-weight: bold;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    /* border: solid red; */
+    margin-top: -5px;
+}
+.blue-blue-container{
+    display: flex;
+    width: 100%;
+    /* border: solid greenyellow; */
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+
+}
+.blue-container{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    /* margin-top: 40px; */
+    width: 800px;
+    /* border: solid rebeccapurple; */
+    height: 60px;
+    margin-top: 75px;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.left-blue-container{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+.blue-top{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.blue-bottom{
+    color: white;
+    font-size: 15px;
+}
+.right-blue-container{
+    /* border: solid red; */
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.blue-button{
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: solid white;
+    background-color:#3882F6;
+    border-width: 2px;
+    color: white;
+    
+
 }
