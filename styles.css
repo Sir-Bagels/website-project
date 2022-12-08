@@ -225,13 +225,15 @@ body{
     padding: 40px;
     align-items: center;
     justify-content: center;
+    justify-content: space-around;
     
     
 }
 .left-blue-container{
 display: flex;
 flex-direction: column;
-width: 100%;
+/* width: 100%; */
+/* border: solid rebeccapurple; */
 }
 .blue-top{
     font-size: 20px;
@@ -244,7 +246,7 @@ width: 100%;
 }
 .right-blue-container{
     /* border: solid red; */
-    width: 100%;
+    /* width: 100%; */
     align-items: center;
     display: flex;
     justify-content: center;
